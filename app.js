@@ -8,7 +8,6 @@ const app = express();
 
 // database dependency
 const Article = require('./article.js');
-require('dotenv').config();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
